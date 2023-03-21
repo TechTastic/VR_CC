@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "vrcc",
+  "version": "${version}",
+  "name": "VR CC Mod",
+  "description": "VR Integration for CC",
+  "authors": [
+    "TechTastic"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/vrcc/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.techtastic.vrcc.fabric.VRCCModFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.3",
+    "architectury": ">=7.1.70"
+  }
+}

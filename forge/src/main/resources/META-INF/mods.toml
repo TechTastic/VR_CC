@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[44,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "vrcc"
+version = "${version}"
+displayName = "VR CC Mod"
+authors = "TechTastic"
+description = '''
+VR Integration for CC
+'''
+#logoFile = ""
+
+[[dependencies.vrcc]]
+modId = "forge"
+mandatory = true
+versionRange = "[44,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.vrcc]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.3,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.vrcc]]
+modId = "architectury"
+mandatory = true
+versionRange = "[7.1.70,)"
+ordering = "AFTER"
+side = "BOTH"
